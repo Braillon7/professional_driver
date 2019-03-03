@@ -242,12 +242,12 @@ hr {
 
 /* Inner */
 .inner {
-  margin: 5px auto;
+  margin: 10px auto;
   width: 75rem;
   max-width: calc(100% - 6rem); }
   @media screen and (max-width: 480px) {
     .inner {
-      max-width: calc(100% - 3rem); } }
+      max-width: calc(100% - 4rem); } }
 
 /* Button */
 input[type="submit"],
@@ -793,7 +793,7 @@ table.alt tbody tr td {
 .highlights .content {
   background: #ffffff;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
-  padding: 5px;
+  padding-bottom: 0;
  }
 
 /* Testimonials */
@@ -2367,7 +2367,7 @@ ul.icons {
     text-align: center; }
   @media screen and (max-width: 1280px) {
     #footer {
-      padding: 4rem 0 2rem 0 ; } }
+      padding: 2rem 0 1rem 0 ; } }
   @media screen and (max-width: 980px) {
     #footer .content {
       -moz-flex-wrap: wrap;
