@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "professional_driver",
   "main": "index.js",
+  "homepage": "https://braillon7.github.io/professional_driver",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Will",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
